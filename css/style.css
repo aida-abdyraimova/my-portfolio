@@ -1,7 +1,8 @@
 :root {
-    --accent: #e244d0;
-    --accent-ligth: #d891d1;
+    --accent: #d86ccb;
+    --accent-ligth: #fccbf3;
     --pure-white: #fff;
+    --text-color: blueviolet;
 }
 
 html {
@@ -18,14 +19,23 @@ html {
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    /*color: var(--accent)*/
+    color: var(--text-color)
 }
 
 .container {
     width: 1140px;
     margin: 0 auto;
     padding: 0 15px;
-    /*border: 1px solid #000;*/
+    /*border: 1px solid rgb(7, 155, 7);*/
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .header {
@@ -80,4 +90,109 @@ body {
     background-color: var(--accent-ligth);
     color: blueviolet;
     font-weight: 700;
+}
+
+.intro {
+    padding: 4em 0;
+}
+
+.intro-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.intro-rigth {
+    width: 60%;
+}
+
+.intro-left {
+    width: 30%; 
+}
+
+.intro-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.intro-rigth h1,
+.intro-rigth h3 {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.first-last-name {
+    font-size: 30px;
+}
+
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+
+.contacts ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts li {
+    text-align: center;
+    font-size: 18px;
+}
+
+.skills {
+    background-color: var(--accent);
+    color: var(--pure-white);
+}
+
+.skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li {
+    padding: 10px 15px;
+    background-color: var(--accent-ligth);
+    color: var(--text-color);
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 18px;
+    transition: background-color 0.5s;
+}
+
+.skills li:hover {
+    background-color: var(--accent);
+    color: var(--pure-white);
+    font-weight: 800;
+    font-size: 18px;
+    content: '&#x2730;';
+}
+
+.code-example {
+    text-align: center;
+}
+
+.code-example pre {
+    text-align: left;
+    width: 55%;
+    margin: 0 auto;
+    background-color: var(--accent);
+    color: var(--pure-white);
+    font-size: 1.3em;
+    font-weight: 300;
+    border-radius: 10px;
 }
