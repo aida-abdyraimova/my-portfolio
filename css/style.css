@@ -52,21 +52,20 @@ body {
 }
 
 .header-nav {
-<<<<<<< HEAD
     display: flex;
     justify-content: flex-end;
     flex-wrap:wrap;
     align-items: center;
     min-height: 52px;
         
-=======
+
   display: flex;
   justify-content: space-between;
   flex-wrap:wrap;
   align-items: center;
   min-height: 52px;
   padding: 0.5em 0;
->>>>>>> f606f821e6f7bb60469a5c60f90636ea765f60e4
+
 }
 
 /*.wrapper-logo {
