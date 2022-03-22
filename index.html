@@ -11,37 +11,45 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    
     <header class="header">
         <div class="container">
             <nav class="header-nav">
-                <a href="#" class="header-logo">Aida Abdraimova</a>
-                <ul class="header-menu">
-                    <li class="header-menu-item">
-                        <a href="#home" class="header-menu-link">Home</a>
-                    </li>
-                    <li class="header-menu-item">
-                        <a href="#skills" class="header-menu-link">Skills</a>
-                    </li>
-                    <li class="header-menu-item">
-                        <a href="#code" class="header-menu-link">Code example</a>
-                    </li>
-                    <li class="header-menu-item">
-                        <a href="#education" class="header-menu-link">educations</a>
-                    </li>
-                    <li class="header-menu-item">
-                        <a href="#languages" class="header-menu-link">Languages</a>
-                    </li>
-                    <li class="header-menu-item">
-                        <a href="#contacts" class="header-menu-link">Contacts</a>
-                    </li>
-                 
-                    </li>
-
-                </ul>
-            </nav>
+                <div class="wrapper-logo">
+                    <a href="#" class="header-logo">Aida Abdraimova</a>
+                </div>
+                
+                <button class="menu-toggler">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+                </button>
+                <div class="wrapper-menu">
+                    <ul class="header-menu menu-show">
+                        <li class="header-menu-item">
+                            <a href="#home" class="header-menu-link">Home</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#skills" class="header-menu-link">Skills</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#code" class="header-menu-link">Code example</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#education" class="header-menu-link">educations</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#languages" class="header-menu-link">Languages</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#contacts" class="header-menu-link">Contacts</a>
+                        </li>
+        
+                    </ul>
+                </div>
+            </nav>  
         </div>
 
     </header>
+
     <main>
         <section class="intro">
             <div class="container">
@@ -125,15 +133,16 @@
                 <p><b>Task:</b> Write an unordered list</p>
                 <pre>
                     <code>
-                        &lt;section&gt;
-                            &lt;h2&gt;Навыки&lt;/h2&gt;
-                            &lt;ul&gt;
-                                &lt;li&gt;HTML&lt;/li&gt;
-                                &lt;li&gt;CSS&lt;/li&gt;
-                                &lt;li&gt;Photoshop, Figma&lt;/li&gt;
-                                &lt;li&gt;GitHub&lt;/li&gt;
-                            &lt;/ul&gt;
-                        &lt;/section&gt;
+    &lt;section&gt;
+        &lt;h2&gt;Навыки&lt;/h2&gt;
+            &lt;ul&gt;
+                &lt;li&gt;HTML&lt;/li&gt;
+                &lt;li&gt;CSS&lt;/li&gt;
+                &lt;li&gt;Photoshop&lt;/li&gt;
+                &lt;li&gt;Figma&lt;/li&gt;
+                &lt;li&gt;GitHub&lt;/li&gt;
+            &lt;/ul&gt;
+    &lt;/section&gt;
                     </code>
                 </pre>
             </div>   
@@ -188,6 +197,7 @@
         </div>
         
     </footer>
+    <script src="js/script.js"></script>
 
 
 </body>
